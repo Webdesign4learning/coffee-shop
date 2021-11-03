@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: #D1C4E9;
+    background-image: linear-gradient(to right, rgba(0,0,0, 0.5) 0 100%), url("../img/footer.jpg");
+    background-repeat: repeat-x;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.row-header{
+    margin:0px auto;
+    padding:0px;
+}
+.jumbotron{
+position: relative;
+  padding:150px 30px 150px 30px;
+  margin:0px auto;
+  background-image: linear-gradient(to right, rgba(0,0,0, 0.5) 0 100%), url("../img/bg.jpg");
+  background-size: cover;
+  font-family: 'Dancing Script', cursive!important;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+.figure-img{
+  width: 150px;
+  height: 150px;
+}
+.visit{
+  padding: 80px;
+  background-image: linear-gradient(to right, rgba(0,0,0, 0.5) 0 100%), url("../img/c2.jpg");
+  background-size: 100% 100%;
+  margin: 100px 0px 50px 0px;
+
+}
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+body{
+    padding:0px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark { 
+  background: transparent;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 320px;
+}
+
+.carousel-item img {
+height: 100%;
+width: 100%;
+}
+
+.card img{
+  height: 200px;
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+/*--Typography--*/
+
+/*font-family: 'Lato', sans-serif;*/
+body{
+	overflow-x: hidden;
+}
+/*--Navbar--*/
+.navbar-dark { 
+  background: transparent;
+}
+
+/*--Slide--*/
+.carousel-item {
+  height:100vh;
+  background:black;
+}
+.carousel-item img {
+opacity: 0.5;
+}
+.carousel-caption h1{
+	font-family: 'Kaisei Decol', serif;
+	font-size:calc(100% + 3.5vw);
+	letter-spacing: .9vh;
+}
+.btn-lg{
+
+	 border-radius: 0;
+	 padding:10px 30px;
+	 font-size: 1rem;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.bs-canvas-overlay {
+   		opacity: 0;
+		z-index: -1;
+	}
+	
+	.bs-canvas-overlay.show {
+   		opacity: 0.3;
+		z-index: 1100;
+	}
+	
+	.bs-canvas-overlay, .bs-canvas {
+		transition: all .4s ease-out;
+		-webkit-transition: all .4s ease-out;
+		-moz-transition: all .4s ease-out;
+		-ms-transition: all .4s ease-out;
+	}
+	
+	.bs-canvas {
+		top: 0;
+		z-index: 1110;
+		overflow-x: hidden;
+		overflow-y: auto;
+		width: 400px;	
+	}
+	.bs-canvas-right {
+		right: 0;
+		margin-right: -400px;
+	}
+/* ---------------------------------------------------
+    SEARCH
+----------------------------------------------------- */	
+.bs-canvas-overlay-search {
+   		opacity: 0;
+		z-index: -1;
+	}
+	
+	.bs-canvas-overlay-search.show {
+   		opacity: 0;
+		z-index: 1100;
+	}
+	
+	.bs-canvas-overlay-search, .bs-canvas-search {
+		transition: all .4s ease-out;
+		-webkit-transition: all .4s ease-out;
+		-moz-transition: all .4s ease-out;
+		-ms-transition: all .4s ease-out;
+	}
+	
+	.bs-canvas-search {
+		right: 0;
+		z-index: 1110;
+		overflow-y: hidden;
+		overflow-x: auto;
+		height: 100px;	
+	}
+	.bs-canvas-top {
+		top: 0;
+		margin-top: -100px;
+	}
+
+	input::placeholder {
+  	color: #fff!important;
+  	font-size: 1.2em;
+	}
+/* ---------------------------------------------------
+    SEARCH
+----------------------------------------------------- */	
+#workplace {
+  height:70vh;
+  background-image:url('../img1/work1.jpg');
+}
+#hour {
+position: relative;
+  margin:0px auto;
+  background-image: linear-gradient(to right, rgba(0,0,0, 0.7) 0 100%), url("../img/bg.jpg");
+  background-size: cover;
+  font-family: "Allison", "Dancing Script"!important;
+  font-size: 24px;
+}
+
+.visit{
+  padding: 120px;
+  background-image: linear-gradient(to right, rgba(0,0,0, 0.5) 0 100%), url("../img1/product.jpg");
+  background-size: 100% 100%;
+  margin-top :100px ;
+
+}
+
+.footer{
+    background-color: #D1C4E9;
+    background-image: linear-gradient(to right, rgba(0,0,0, 0.5) 0 100%), url("../img/footer.jpg");
+    background-repeat: repeat-x;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron{
+position: relative;
+  padding:100px 30px 100px 30px;
+  margin:100px auto;
+  background-image: linear-gradient(to right, rgba(0,0,0, 0.5) 0 100%), url("../img1/jombotron.jpg");
+  background-size: cover;
+  font-family: "Alto", "Dancing Script"!important;
+  font-size: 24px;
+}
+
+#product ,#team, #title-menue ,#working-hour
+{
+	margin-top: 100px;
+}
