@@ -1,2 +1,3 @@
 # coffee-shop
-There is three seperate design of coffee-shop websites
+There is three seperate design for coffee-shop website.
+
