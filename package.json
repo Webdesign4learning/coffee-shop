@@ -1,7 +1,7 @@
 {
-  "name": "restaurant",
+  "name": "Coffee Shop",
   "version": "1.0.0",
-  "description": "The restaurant web page.",
+  "description": "The Coffee Shop website.",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
